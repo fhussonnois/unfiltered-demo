@@ -13,8 +13,8 @@ object CocktailRepresentation {
   implicit def toJValue(cocktail: Cocktail): JValue =
     	("name" -> cocktail.name) ~
     	("recipe" -> cocktail.recipe) ~
-    	("ingrediants" ->
-    		cocktail.ingrediants.map(i =>
+    	("ingredients" ->
+    		cocktail.ingredients.map(i =>
     		("name" -> i._1) ~
             ("quantity" -> i._2)))
 }
