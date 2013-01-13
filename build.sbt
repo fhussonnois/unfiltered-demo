@@ -1,4 +1,4 @@
-name := "unfiltered"
+name := "unfiltered-demo"
 
 version := "1.0"
 

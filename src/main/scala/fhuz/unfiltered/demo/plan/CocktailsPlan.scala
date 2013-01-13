@@ -13,7 +13,7 @@ import net.liftweb.json.JsonDSL._
 import net.liftweb.json._
 
 
-object CocktailsPlan extends unfiltered.filter.Plan {
+class CocktailsPlan extends unfiltered.filter.Plan {
     
   @volatile private var repository: scala.collection.mutable.Map[Int, Cocktail] = scala.collection.mutable.Map.empty
       

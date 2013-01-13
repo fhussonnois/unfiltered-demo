@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fhuz.unfiltered.demo</groupId>
-	<artifactId>cocktail</artifactId>
-	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<artifactId>unfiltered-demo</artifactId>
+	<version>1.0</version>
+	<packaging>war</packaging>
 
 	<name>A simple Unfiltered example for REST/JSON services</name>
 
